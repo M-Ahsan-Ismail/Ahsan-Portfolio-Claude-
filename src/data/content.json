@@ -1,0 +1,140 @@
+{
+  "profile": {
+    "name": "Ahsan Ismail",
+    "firstName": "Ahsan",
+    "lastName": "Ismail",
+    "role": "Python / Odoo Developer",
+    "tagline": "I build scalable ERP systems and custom software that businesses actually run on.",
+    "location": "Lahore, Pakistan",
+    "available": true
+  },
+  "social": {
+    "phone": "+92 318 0690159",
+    "email": "ahsan.ismail0159@gmail.com",
+    "github": "https://github.com/M-Ahsan-Ismail",
+    "linkedin": "https://www.linkedin.com/in/ahsan-ismail-4b4763281/",
+    "website": "https://ahsan-developer.netlify.app/"
+  },
+  "stats": [
+    { "id": "s1", "label": "Years building ERP", "value": 2, "suffix": "+" },
+    { "id": "s2", "label": "Projects delivered", "value": 12, "suffix": "+" },
+    { "id": "s3", "label": "Odoo versions mastered", "value": 5, "suffix": "" },
+    { "id": "s4", "label": "Industries served", "value": 6, "suffix": "" }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Odoo Developer",
+      "company": "INVOSOL",
+      "period": "11/2025 — Present",
+      "detail": "Lead development and customization of Odoo modules across Sales, Inventory, Accounting and HR. Build custom portals and dashboards, integrate third-party APIs, and migrate modules and databases to Odoo v18/v19.",
+      "tech": ["Odoo", "Python", "PostgreSQL", "XML"]
+    },
+    {
+      "id": "e2",
+      "role": "Jr. Odoo Developer",
+      "company": "Business Solutions & Services (BSS)",
+      "period": "08/2024 — 10/2025",
+      "detail": "Developed and customized Odoo modules including HRMS, Accounting and Stock. Migrated legacy modules to newer versions, built QWeb / PDF / Excel reports, and collaborated with the team lead to optimize workflows.",
+      "tech": ["Odoo", "Python", "QWeb", "PostgreSQL"]
+    },
+    {
+      "id": "e3",
+      "role": "Trainee Software Engineer",
+      "company": "TeamUp4Solutions",
+      "period": "07/2024 — 08/2024",
+      "detail": "Participated in code reviews and contributed to team sprint goals. Gained hands-on exposure to Odoo architecture and Python best practices.",
+      "tech": ["Python", "Odoo"]
+    }
+  ],
+  "skills": [
+    { "id": "sk1", "name": "Python", "icon": "SiPython" },
+    { "id": "sk2", "name": "Odoo", "icon": "SiOdoo" },
+    { "id": "sk3", "name": "PostgreSQL", "icon": "SiPostgresql" },
+    { "id": "sk4", "name": "FastAPI", "icon": "SiFastapi" },
+    { "id": "sk5", "name": "Flask", "icon": "SiFlask" },
+    { "id": "sk6", "name": "JavaScript", "icon": "SiJavascript" },
+    { "id": "sk7", "name": "React", "icon": "SiReact" },
+    { "id": "sk8", "name": "HTML5", "icon": "SiHtml5" },
+    { "id": "sk9", "name": "CSS3", "icon": "SiCss" },
+    { "id": "sk10", "name": "XML", "icon": "TbFileCode" },
+    { "id": "sk11", "name": "Git", "icon": "SiGit" },
+    { "id": "sk12", "name": "GitHub", "icon": "SiGithub" },
+    { "id": "sk13", "name": "Linux", "icon": "SiLinux" },
+    { "id": "sk14", "name": "Docker", "icon": "SiDocker" }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "J & J Polymer",
+      "subtitle": "Manufacturing ERP",
+      "description": "Full manufacturing ERP: procurement, cost-sheet builder, gate pass, late-payment surcharge, dual approvals across Sales, Purchase, Inventory, Manufacturing and Accounting, plus backdated entries and an expense module.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/J-J-Development.git",
+      "images": []
+    },
+    {
+      "id": "p2",
+      "title": "Tijaarat Developers",
+      "subtitle": "Real Estate ERP",
+      "description": "HRMS and portal customization with Purchase, Inventory, Accounting, Requisition and Sales. Maintenance cost tracking, inventory quality checks, fund requisition, purchase comparison and global discount handling.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/Tijaarat-Developers.git",
+      "images": []
+    },
+    {
+      "id": "p3",
+      "title": "BSS Development",
+      "subtitle": "HRMS & Finance",
+      "description": "Multiple Odoo 16 modules: dynamic cheque numbering, custom approval workflows, salary register reports, enhanced employee portals, payment vouchers, invoice customization and automated withholding tax.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/BSS_Internal_Devlopment.git",
+      "images": []
+    },
+    {
+      "id": "p4",
+      "title": "Hotel Reservation Module",
+      "subtitle": "Hospitality",
+      "description": "Reservation booking with check-in/out, admin approvals, dynamic pricing, guest stay histories and role-based access. Dashboards for room availability, booking trends and guest insights.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/Hotel-Reservation-Management.git",
+      "images": []
+    },
+    {
+      "id": "p5",
+      "title": "Payment Voucher Module",
+      "subtitle": "Accounting",
+      "description": "Streamlined payment processing with automated journal entries, dynamically generated debit/credit lines linked to journals, and ir.sequence for voucher and cheque numbering.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/PaymentVoucher.git",
+      "images": []
+    },
+    {
+      "id": "p6",
+      "title": "Employee Loan Module",
+      "subtitle": "HR & Accounting",
+      "description": "Loan application, approval and installment tracking integrated with accounting — profit JV on installment payments, configurable loan types and duplicate-application prevention.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/Employee-Loan-Management.git",
+      "images": []
+    },
+    {
+      "id": "p7",
+      "title": "Diabetes Prediction System",
+      "subtitle": "Machine Learning",
+      "description": "ML system predicting diabetes risk from patient data using a logistic-regression model.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/DiabetesPrediction.git",
+      "images": []
+    },
+    {
+      "id": "p8",
+      "title": "Movement Detector",
+      "subtitle": "Computer Vision",
+      "description": "Detects head movement via webcam and sends a WhatsApp alert through the Twilio API when movement is detected.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/Head_Movement_Detector.git",
+      "images": []
+    },
+    {
+      "id": "p9",
+      "title": "Tailor Measurements Saver",
+      "subtitle": "Flask App",
+      "description": "Python + Flask app to store and manage tailor measurements with full CRUD.",
+      "githubUrl": "https://github.com/M-Ahsan-Ismail/Tailor-Measurements-Saver-App.git",
+      "images": []
+    }
+  ]
+}
