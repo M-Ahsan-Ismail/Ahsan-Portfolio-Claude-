@@ -63,7 +63,7 @@ export function CVPopup({ open, onClose }) {
           transition={{ duration: 0.5, ease: [0.34, 1.4, 0.64, 1] }}
           className="fixed bottom-5 right-5 z-[60] w-[min(92vw,340px)]"
         >
-          <div className="rounded-2xl p-5 shadow-2xl" style={{ background: 'linear-gradient(135deg, #f4d58a, #e9b949 45%, #d4a536)' }}>
+          <div className="rounded-2xl p-5 shadow-2xl" style={{ background: 'linear-gradient(135deg, #ff7a45, #ff5a1f 55%, #e04a14)' }}>
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-2 text-obsidian">
                 <Download size={18} />
@@ -79,7 +79,7 @@ export function CVPopup({ open, onClose }) {
             <div className="mt-4 flex gap-2">
               <button
                 onClick={downloadCV}
-                className="flex-1 bg-white text-[#b8860b] px-3 py-2.5 rounded-lg text-sm font-semibold hover:bg-white/90 transition-colors"
+                className="flex-1 bg-white text-[#c2410c] px-3 py-2.5 rounded-lg text-sm font-semibold hover:bg-white/90 transition-colors"
               >
                 Download Now
               </button>

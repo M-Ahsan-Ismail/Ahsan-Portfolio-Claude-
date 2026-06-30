@@ -1,16 +1,14 @@
 import React from 'react';
-import { Reveal } from '../lib/motion.jsx';
+import { Reveal, WordReveal } from '../lib/motion.jsx';
 
 export function SectionHeading({ eyebrow, title, subtitle }) {
   return (
-    <div className="mb-12 sm:mb-16">
-      <Reveal>
-        {eyebrow && <p className="eyebrow mb-4">{eyebrow}</p>}
-        <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-white">
-          {title}
-        </h2>
-        {subtitle && <p className="mt-4 max-w-xl text-haze">{subtitle}</p>}
-      </Reveal>
+    <div className="mb-14">
+      <Reveal>{eyebrow && <p className="eyebrow mb-5">{eyebrow}</p>}</Reveal>
+      <h2 className="display text-5xl sm:text-6xl md:text-7xl font-semibold tracking-[-0.03em] text-bone leading-[0.95]">
+        <WordReveal text={title} />
+      </h2>
+      {subtitle && <Reveal delay={0.1}><p className="mt-5 max-w-xl text-haze">{subtitle}</p></Reveal>}
     </div>
   );
 }
